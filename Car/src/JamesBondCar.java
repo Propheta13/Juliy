@@ -1,11 +1,11 @@
 public class JamesBondCar extends Cars { 
 /* Код extends написанный ранее говорит о том что этот класс расширяет класс Cars. */
 	public static void main(String[] args) {
-		Cars myCars = new Cars;
+		Cars jCar = new Cars;
 		int speed = 180;
-		myCars.start();
-		myCars.stop();
-		myCars.drive (40);
+        jCar.start();
+        jCar.stop();
+        jCar.drive (40);
 
 	}
 
