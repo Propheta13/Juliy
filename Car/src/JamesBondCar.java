@@ -1,12 +1,9 @@
 public class JamesBondCar extends Cars { 
 /* Код extends написанный ранее говорит о том что этот класс расширяет класс Cars. */
-	public static void main(String[] args) {
-		Cars jCar = new Cars;
-		int speed = 180;
-        jCar.start();
-        jCar.stop();
-        jCar.drive (40);
-
-	}
-
+    int speed = 180;
+    public int drive (int howlong) {
+        distance = howlong * speed;
+        System.out.println("The car drove  " + distance + " km for " + howlong + " minutes.");
+        return distance;
+    }
 }
