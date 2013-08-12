@@ -5,15 +5,15 @@ public class Pet {
     String color ;
 
     public void sleep() {
-        System.out.println("Спокойной ночи. До завтра");
+        System.out.println("I sleeping now");
     }
 
     public void eat() {
-        System.out.println("Я очень голоден.");
+        System.out.println("I want eat");
     }
 
     public String say(String aWord) {
-        String petResponse = " Ну ладно " + aWord;
+        String petResponse = " Ok " + aWord;
         return petResponse;
     }
 
